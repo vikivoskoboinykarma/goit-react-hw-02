@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+ }
+
+ .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0b4a0c;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    border: #3d3b3b 1px solid;
+    font-size: 18px;
+   
+ }
+ 
+ 
+ .button:hover {
+    color: #0b4a0c;
+    background-color: #fff;
+ }
+ 
+ .button:active {
+    transform: translateY(2px);
+    box-shadow: none
+ }
